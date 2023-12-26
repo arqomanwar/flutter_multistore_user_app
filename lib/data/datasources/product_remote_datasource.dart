@@ -21,15 +21,13 @@ class ProductRemoteDatasource {
     }
   }
 
-  Future<Either<String, ProductsResponseModel>> getProductsByCategory(
-      int categoryId) async {
+  Future<Either<String, ProductsResponseModel>> getProductsByCategory(int categoryId) async {
     final headers = {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
     };
     final response = await http.get(
-      Uri.parse(
-          '${GlobalVariables.baseUrl}/api/products?category_id=$categoryId'),
+      Uri.parse('${GlobalVariables.baseUrl}/api/products?category_id=$categoryId'),
       headers: headers,
     );
 

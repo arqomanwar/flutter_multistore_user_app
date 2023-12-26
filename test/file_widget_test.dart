@@ -3,8 +3,7 @@ import 'package:flutter_multistore_user_app/file_widget.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('file widget displays the currect file name',
-      (WidgetTester tester) async {
+  testWidgets('file widget displays the currect file name', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MaterialApp(
       home: FileWidget(fileName: 'educative.txt'),
