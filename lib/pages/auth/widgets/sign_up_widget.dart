@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_fic7_app/bloc/register/register_bloc.dart';
-import 'package:flutter_fic7_app/data/datasources/auth_local_datasource.dart';
-import 'package:flutter_fic7_app/data/models/request/register_request_model.dart';
+import 'package:flutter_multistore_user_app/bloc/register/register_bloc.dart';
+import 'package:flutter_multistore_user_app/data/datasources/auth_local_datasource.dart';
+import 'package:flutter_multistore_user_app/data/models/request/register_request_model.dart';
 
 import '../../../utils/color_resources.dart';
 import '../../../utils/custom_themes.dart';
